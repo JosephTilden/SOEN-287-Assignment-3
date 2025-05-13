@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shawty, what's yo number?</title>
+  <script src="./PhoneCheck.js"></script>
+</head>
+<body>
+<fieldset>
+  <form name="contactForm" onsubmit="return validateNumberForm()">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" required>
+    <label for="phoneNumber">Phone number: </label>
+    <input type="tel" name="phoneNumber" id="phoneNumber" required>
+    <br><br>
+    <input type="submit">
+  </form>
+</fieldset>
+<p id="resultMsg" style="color: green"></p>
+</body>
+</html>
